@@ -29,6 +29,7 @@
 ### 使用前须知
 * 您在使用时，需要更换config.py中的baiduOCR等秘钥参数（现在的是没法使用的，需要您自行到百度开发者中心去申请OCR的秘钥并替换<link>https://cloud.baidu.com/</link>，具体操作办法百度一下都有）。否则无法使用！<br>
 * 您必须在电脑中安装 Python3.6 或以上版本的环境~~并安装requirements.txt文件~~(已包括在runfirst.bat里)<br>
+* 由于本工程需要调用win32api 所以您可能需要自行安装 pywin32 应用 地址为https://sourceforge.net/projects/pywin32/files/pywin32/<br>
 * 同时为了您能够使用正常，请在使用前以~~管理员模式~~正常模式运行runfirst.bat批处理以初始化运行环境<br>
 * 以上三项必须严格执行，否则主程序（main.py）肯定是没办法正常运行的<br><br>
 
